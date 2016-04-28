@@ -1,6 +1,4 @@
 
-- Load modules from src dirs.
-
 - Set up testing.
 
 - Set up Redux in app.js
