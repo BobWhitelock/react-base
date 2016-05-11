@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "lint": "eslint .",
+    "lint-fix": "eslint src --fix",
     "start": "hjs-dev-server",
     "test": "karma start"
   },
