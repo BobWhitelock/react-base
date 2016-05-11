@@ -1,10 +1,8 @@
 
-- Set up Redux in app.js
-
-- Set up Redux devtools
-
 - Adapt redux-cli blueprints for project, eslint, packages used etc.
 
 - Extract common test setup.
+
+- Setup hot reloading reducers (see http://stackoverflow.com/a/34697765.)
 
 - (Optionally) include react-router - or one of the various Redux versions?
