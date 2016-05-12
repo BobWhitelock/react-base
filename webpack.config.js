@@ -16,6 +16,14 @@ config.resolve.root = [
   path.resolve('src'),
 ]
 
+config.module.loaders = [
+  ...config.module.loaders,
+  { test: /sinon\/pkg\/sinon\.js/, loader: 'imports?define=>false,require=>false' },
+]
+
+config.resolve.alias = {}
+config.resolve.alias.sinon = 'sinon/pkg/sinon.js'
+
 // Required for Enzyme.
 config.externals = {
   'react/addons': true,
