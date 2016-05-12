@@ -9,7 +9,7 @@ export default function configureStore(initialState) {
   })
 
   const enhancers = [
-    window.devToolsExtension ? window.devToolsExtension() : undefined,
+    window.devToolsExtension ? window.devToolsExtension() : f => f,
   ]
   const enhancer = compose(...enhancers)
 
