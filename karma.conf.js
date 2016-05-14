@@ -6,8 +6,7 @@ module.exports = function(config) {
   config.set({
     browsers: ['Chrome'],
     files: [
-      'src/__tests__/*.test.js',
-      'src/**/__tests__/*.test.js',
+      'tests.webpack.js',
     ],
     frameworks: ['chai', 'mocha'],
     plugins: [
@@ -18,8 +17,7 @@ module.exports = function(config) {
       'karma-webpack',
     ],
     preprocessors: {
-      'src/__tests__/*.test.js': [ 'webpack', 'sourcemap' ],
-      'src/**/__tests__/*.test.js': [ 'webpack', 'sourcemap' ],
+      'tests.webpack.js': [ 'webpack', 'sourcemap' ],
     },
     reporters: [ 'dots' ],
     singleRun: false,
