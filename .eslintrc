@@ -8,6 +8,10 @@
     "space-before-function-paren": [2, "never"]
   },
   "globals": {
+    "after": true,
+    "afterEach": true,
+    "before": true,
+    "beforeEach": true,
     "chai": true,
     "describe": true,
     "expect": true,
