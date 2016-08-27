@@ -15,6 +15,7 @@
     "chai": true,
     "describe": true,
     "expect": true,
-    "it": true
+    "it": true,
+    "context": true
   }
 }
