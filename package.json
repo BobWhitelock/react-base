@@ -13,7 +13,6 @@
   "author": "Bob Whitelock",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "hjs-webpack": "^8.1.0",
     "lodash": "^4.11.1",
     "react": "^15.0.1",
@@ -24,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.1",
@@ -41,6 +41,7 @@
     "json-loader": "^0.5.4",
     "karma": "^0.13.22",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-cli": "^1.0.0",
     "karma-mocha": "^1.0.1",
     "karma-sourcemap-loader": "^0.3.7",
